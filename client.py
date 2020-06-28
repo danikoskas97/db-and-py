@@ -17,4 +17,3 @@ except ConnectionRefusedError:
     print("connection failed !")
 finally:
     socket.close()
-
