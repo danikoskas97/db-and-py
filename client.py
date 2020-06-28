@@ -10,6 +10,7 @@ try:
     data = "welcome iam the client"
     data = data.encode("utf8")
     socket.sendall(data)
+    # sendall is to send all the data no lost
 
 except ConnectionRefusedError:
     # if the server is not connected
