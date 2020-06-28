@@ -10,5 +10,10 @@ while True:
     conn, address = socket.accept()
     print("listening...")
 
+    # always mul of 2 like 1024 or 256
+    data = conn .recv(1024)
+    data = data.decode("utf8")
+    print(data)
+
 conn.close()
 socket.close()
