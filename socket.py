@@ -8,7 +8,7 @@ print("the server is start")
 while True:
     socket.listen(5)
     conn, address = socket.accept()
-    print("listening")
+    print("listening...")
 
 conn.close()
 socket.close()
